@@ -1,0 +1,318 @@
+/* Header */
+#head {
+	background: #181015 url(../images/microchip.jpg) no-repeat;
+	background-size: cover;
+	min-height: 540px;
+	text-align: center;
+	padding-top: 240px;
+	color: white;
+	font-family: "Open sans", Helvetica, Arial;
+	font-weight: 300;
+}
+
+#head.secondary {
+	height: 100px;
+	min-height: 100px;
+	padding-top: 0px;
+}
+
+#head .lead {
+	font-family: "Open sans", Helvetica, Arial;
+	font-size: 60px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	color: white;
+	line-height: 1.15em;
+}
+
+#head .tagline {
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.75);
+	margin-bottom: 25px;
+}
+
+#head .tagline a {
+	color: #fff;
+}
+
+@media (max-width: 767px) {
+	#head {
+		min-height: 420px;
+		padding-top: 160px;
+	}
+
+	#head .lead {
+		font-size: 34px;
+	}
+}
+
+/* Autohide navbar */
+.slideUp {
+	top: -100px;
+}
+
+.navbar-nav {
+	font-size: 16px;
+}
+
+.headroom {
+	-webkit-transition: all 0.4s ease-out;
+	-moz-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
+}
+
+
+/* Highlights (in jumbotron in most cases) */
+.highlight {
+	margin-top: 20px;
+}
+
+.h-caption {
+	text-align: center;
+}
+
+.h-caption h3 {
+	color: #382526;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.h-caption h4 {
+	color: #382526;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.h-body {
+	font-family: "Arial", "Microsoft YaHei";
+	font-size: 16px;
+	text-align: left;
+}
+
+.h-body h3 {
+	color: #382526;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.h-body h4 {
+	color: #382526;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.h-body h5 {
+	color: #382526;
+	font-size: 16px;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Open sans", Helvetica, Arial;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+	margin-top: 30px;
+}
+
+blockquote {
+	font-style: italic;
+	font-family: Georgia;
+	color: #999;
+	margin: 30px 0 30px;
+}
+
+label {
+	color: #777;
+}
+
+.thin {
+	font-weight: 300;
+}
+
+.page-title {
+	margin-top: 20px;
+	font-weight: 300;
+}
+
+.text-muted {
+	color: #888;
+}
+
+.breadcrumb {
+	background: none;
+	padding: 0;
+	margin: 30px 0 0px 0;
+}
+
+/* Helpers */
+.container-full {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.container h1 {
+	margin-top: 70px;
+}
+
+.top-space {
+	margin-top: 60px;
+}
+
+.top-margin {
+	margin-top: 20px;
+}
+
+.bottom-space {
+	margin-bottom: 60px;
+}
+
+.bottom-margin {
+	margin-bottom: 20px;
+}
+
+img {
+	max-width: 100%;
+}
+
+img.pull-right {
+	margin-left: 10px;
+}
+
+img.pull-left {
+	margin-right: 10px;
+}
+
+#map {
+	width: 100%;
+	height: 280px;
+}
+
+#social {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#social .wrapper {
+	width: 340px;
+	margin: 0 auto;
+}
+
+/* Main content block */
+.maincontent {}
+
+/* Sidebars */
+.sidebar {
+	padding-top: 36px;
+	padding-bottom: 30px;
+}
+
+.sidebar .widget {
+	margin-bottom: 20px;
+}
+
+.sidebar h1, .sidebar .h1, .sidebar h2, .sidebar .h2, .sidebar h3, .sidebar .h3 {
+	margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+	background: #191919;
+	padding: 15px 0;
+	color: #777;
+	font-size: 12px;
+}
+
+.footer a {
+	color: #aaa;
+}
+
+.footer a:hover {
+	color: #fff;
+}
+
+.footer p {
+	margin: 0;
+}
+
+.widget-simplenav {
+	margin-left: -5px;
+}
+
+.widget-simplenav a {
+	margin: 0 5px;
+}
+
+/* Span as line */
+.line {
+	display: block;
+	width: 150px;
+	height: 1px;
+	background: rgb(20, 20, 20);
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+/* Tag */
+.tag ul {
+	list-style-type: none;
+	width: 100%;
+	padding: 0px;
+}
+
+.box {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+}
+
+.box .head {
+	font-size: 35px;
+	float: left;
+	margin: 00px;
+	height: 50px;
+	width: 10%;
+}
+
+.box .tail {
+	float: left;
+	margin: 0px;
+	margin-inline: 10px;
+	height: 100%;
+	padding-left: 25px;
+	max-width: 80%;
+	border-left: 1px solid #999;
+}
+
+.tag h3 {
+	font: bold 20px/1.5;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 8px;
+}
+
+.tag li p {
+	font: 200 12px/1.5;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.tag li {
+	padding: 10px;
+}
+
+.tag li:hover {
+	background: #eee;
+}
+
+/* list */
+.list li {
+	margin: 10px;
+}
